@@ -1,0 +1,13 @@
+﻿{
+"Compile": {
+    "Mode": "External",
+    "Extensions": [".ts"],
+    "ExtensionsWithNoOutput": [".d.ts"]
+   },
+  "References": [
+    {"Includes": ["*/app/*.ts"], "Excludes": ["*/app/*.d.ts"] }
+  ],
+  "Tests": [
+    { "Includes": ["*/app/*.spec.ts"], "Excludes": ["*/app/*.d.ts"] }
+  ]
+}
